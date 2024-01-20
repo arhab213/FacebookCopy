@@ -1,64 +1,68 @@
 .ShareContainer{
-    width: 100%;
-    height: 190px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 59px 5px rgba(0,0,0,0.1);
-    margin: 20px;
+width: 100%;
+height: 150px;
+margin: 15px;
+border-radius: 10px;
+box-shadow: 0px 0px 15px 7px rgba(0,0,0,0.1);
+position: relative;
 }
-.ShareWrapper{
-padding: 10px;
-
-}
-.shareProfileImage{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 0 20px;
-
+.ShareWrraped{
+    padding: 10px;
 }
 .ShareTop{
     display: flex;
     align-items: center;
-    padding: 20px 0;
+margin-bottom: 20px;
 }
-.shareInput{
+.ShareInpute{
+margin-left: 12px;
 border: none;
-width: 80%;
+width: 70%;
 }
-.shareInput:focus
-{
-   outline: none;
-  
+.ShareInpute:focus{
+outline: none;
 }
+
+.ShareProfileImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
 .ShareHr{
-    margin:20px;
+    margin: 5px 20px;
+}
+.ShareBottom{
+    padding:10px;
 }
 .ShareOptions{
     display: flex;
-    margin-left: 20px;
+    align-items: center;
+   cursor: pointer;
+
 }
 .ShareOption{
     display: flex;
     align-items: center;
-    margin-right: 20px;
-    cursor: pointer;
+    margin-left: 20px;
 }
-.ShareOptionIcons{
-    font-size: 18px !important; 
-    margin-left: 13px;
+.ShareOptionName{
+   margin-left: 5px;
+   font-weight: 500;
 }
-.ShareOptionText{
-    font-size: 14px;
-    font-weight: 500;
-    margin-left: 3px;
-}
-.ShareButton{
-    background-color: green;
-    font-weight: 500;
+.shareButton{
     border: none;
-    padding: 7px;
+    background: green;
+    color:white;
+    padding: 5px;
     border-radius: 5px;
-    margin-left: 35%;
-    color: white;
+    margin-left:5px;
+    font-weight: 500;
+    position: absolute;
+    right:5%;
+    cursor: pointer;
+
 }

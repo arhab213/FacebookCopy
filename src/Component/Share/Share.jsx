@@ -1,14 +1,20 @@
 import "./Share.css";
-import { Theaters, Label, Room, EmojiEmotions } from "@mui/icons-material";
+import {
+  Theaters,
+  Label,
+  Room,
+  EmojiEmotions,
+  TheatersRounded,
+} from "@mui/icons-material";
 export default function Share() {
   return (
     <div className="ShareContainer">
-      <div className="ShareWrapper">
+      <div className="ShareWrraped">
         <div className="ShareTop">
-          <img className="shareProfileImage" src="/paysage1.jpg" alt="" />
+          <img className="ShareProfileImage" src="/paysage1.jpg" alt="" />
           <input
-            className="shareInput"
-            placeholder="What's popping today?"
+            className="ShareInpute"
+            placeholder="what's popping today ?"
             type="text"
           />
         </div>
@@ -16,25 +22,25 @@ export default function Share() {
         <div className="ShareBottom">
           <div className="ShareOptions">
             <div className="ShareOption">
-              <Theaters htmlColor="tomato" className="ShareOptionIcons" />
-              <span className="ShareOptionText">Photo or video</span>
+              <Theaters htmlColor="tomato" className="ShareOptionsIcon" />
+              <span className="ShareOptionName">Video</span>
             </div>
             <div className="ShareOption">
-              <Label htmlColor="blue" className="ShareOptionIcons" />
-              <span className="ShareOptionText">Tag</span>
+              <Label htmlColor="blue" className="ShareOptionsIcon" />
+              <span className="ShareOptionName">Tag</span>
             </div>
             <div className="ShareOption">
-              <Room htmlColor="green" className="ShareOptionIcons" />
-              <span className="ShareOptionText">Location</span>
+              <Room htmlColor="green" className="ShareOptionsIcon" />
+              <span className="ShareOptionName">Localisation</span>
             </div>
             <div className="ShareOption">
               <EmojiEmotions
                 htmlColor="goldenrod"
-                className="ShareOptionIcons"
+                className="ShareOptionsIcon"
               />
-              <span className="ShareOptionText">Feelings</span>
+              <span className="ShareOptionName">Feelings</span>
             </div>
-            <button className="ShareButton">Share</button>
+            <button className="shareButton">Share</button>
           </div>
         </div>
       </div>

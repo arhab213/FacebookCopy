@@ -1,5 +1,5 @@
 .sidebarContainer{
-   flex: 4;
+   flex: 3;
    height: calc(100vh - 50px);
    overflow-y: scroll;
 }
@@ -10,7 +10,7 @@
    background-color: white;
 }
 ::-webkit-scrollbar-thumb{
-background-color:rgb(154, 153, 153);
+background-color:rgb(239, 239, 239);
 border-radius: 10px;
 }
 .sidebarWrapped{
